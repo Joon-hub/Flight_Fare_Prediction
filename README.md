@@ -1,4 +1,7 @@
 # Flight_Fare_Prediction End-to-End Machine Learning Project using Amazon Sage Maker
+# Flight Fare Prediction
+
+![Banner](https://via.placeholder.com/1200x300?text=Flight+Fare+Prediction+Banner)
 
 Welcome to the Flight Fare Prediction project repository! This project aims to predict the prices of airline tickets based on various features such as date of journey, source, destination, duration, and the number of stops.
 
@@ -30,6 +33,8 @@ The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com
 - Departure Time
 - Airline
 
+![Dataset Example](https://via.placeholder.com/800x400?text=Dataset+Example)
+
 ## Installation
 To get started with this project, clone the repository and install the required packages:
 
@@ -37,3 +42,4 @@ To get started with this project, clone the repository and install the required 
 git clone https://github.com/Joon-hub/Flight_Fare_Prediction.git
 cd Flight_Fare_Prediction
 pip install -r requirements.txt
+
