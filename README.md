@@ -20,7 +20,7 @@ Welcome to the Flight Fare Prediction project repository! This project aims to p
 This project utilizes machine learning techniques to predict flight fares. The dataset consists of various features including the date of the journey, departure time, arrival time, source, destination, route, duration, and the total number of stops. The goal is to build a robust model that can accurately predict the price of a flight given these features.
 
 ## Dataset
-The dataset used in this project is sourced from [Kaggle]([https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh/code?datasetId=140442&sortBy=voteCount]). It contains 10,683 records with 11 features. The primary features include:
+The dataset used in this project is sourced from [kaggle]([https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh/code?datasetId=140442&sortBy=voteCount]). It contains 10,683 records with 11 features. The primary features include:
 - Date of Journey
 - Source
 - Destination
