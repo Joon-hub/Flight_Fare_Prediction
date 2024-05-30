@@ -2,7 +2,7 @@
 #### End-to-End Machine Learning Project using Amazon Sage Maker
 
 <img src="Images/img1.jpeg" alt="Banner" width="1000" height = "300"/>
-Welcome to the Flight Fare Prediction project repository! This project aims to predict the prices of airline tickets based on various features such as date of journey, source, destination, duration, and the number of stops.
+Welcome to the Flight Fare Prediction project repository! This project aims to predict the prices of airline tickets based on various features such as the date of journey, source, destination, duration, and the number of stops.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -31,8 +31,6 @@ The dataset used in this project is sourced from [kaggle]([https://www.kaggle.co
 - Arrival Time
 - Departure Time
 - Airline
-
-![Dataset Example](https://via.placeholder.com/800x400?text=Dataset+Example)
 
 ## Installation
 To get started with this project, clone the repository and install the required packages:
