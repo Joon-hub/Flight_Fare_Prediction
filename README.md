@@ -1,4 +1,5 @@
-# Flight_Fare_Prediction End-to-End Machine Learning Project using Amazon Sage Maker
+# Flight Price Prediction 
+#### End-to-End Machine Learning Project using Amazon Sage Maker
 
 ![Banner](Images/img1.jpeg)
 Welcome to the Flight Fare Prediction project repository! This project aims to predict the prices of airline tickets based on various features such as date of journey, source, destination, duration, and the number of stops.
