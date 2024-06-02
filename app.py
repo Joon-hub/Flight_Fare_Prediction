@@ -259,7 +259,7 @@ preprocessor = Pipeline(steps=[
 ])
 
 # read the training data
-train = pd.read_csv("train.csv")
+train = pd.read_csv("Data/train.csv")
 X_train = train.drop(columns="price")
 y_train = train.price.copy()
 
@@ -267,13 +267,12 @@ y_train = train.price.copy()
 preprocessor.fit(X_train, y_train)
 joblib.dump(preprocessor, "preprocessor.joblib")
 
-# web application
+# web application streamlit______________________________________________________________
 st.set_page_config(
 	page_title="Flights Prices Prediction",
 	page_icon="✈️",
 	layout="wide"
 )
-
 st.title("Flights Prices Prediction - AWS SageMaker")
 
 # user inputs
@@ -333,8 +332,8 @@ if st.button("Predict"):
 	saved_preprocessor = joblib.load("preprocessor.joblib")
 	x_new_pre = saved_preprocessor.transform(x_new)
 
-	with open("xgboost-model", "rb") as f:
-		model = pickle.load(f)
+	with open("xgboost-model 2", "rb") as f:
+	    model = pickle.load(f)
 	x_new_xgb = xgb.DMatrix(x_new_pre)
 	pred = model.predict(x_new_xgb)[0]
 
